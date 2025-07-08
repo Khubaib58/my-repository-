@@ -1,0 +1,30 @@
+:root {
+    --heading-color: #f15120;
+    --text-color: #32ff0e;
+    --main-color: #1313fa;
+    --second-heading-color: #f15120;
+    --third-heading-color: #16ada6;
+    --maintransition: all 0.3s ease-in-out;
+}
+.heading {
+    color: var(--heading-color);
+}
+.second-heading {
+    color: var(--second-heading-color);
+    transition: var(--maintransition);
+}
+.second-heading:hover {
+
+    color: var(--text-color);
+}
+div{
+    --primaryRed: #69f70b;
+}
+.main-text {
+    color: var(--primaryRed);
+}
+.third-heading {
+    color: var(--primaryRed);
+    
+}
+
