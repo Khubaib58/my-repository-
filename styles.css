@@ -250,6 +250,9 @@ footer {
 }
 
 @media (max-width: 480px) {
+    .heading-left {
+    left: -0.5%;
+   }
     .hero {
         padding: 60px 20px;
     }
